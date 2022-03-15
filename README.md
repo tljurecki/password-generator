@@ -5,4 +5,4 @@ Generates a random password.
 ## Languages Used
 HTML, CSS, Javascript
 
-(./asses/screeenshot.png)
+(./assets/screeenshot.png)
