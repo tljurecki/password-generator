@@ -22,7 +22,7 @@ for (var i = 0; i < length; i++) {
 }
 return returnValue; 
 }
-alert(generatePassword(num));
+alert(generatePassword());
 
 
 
