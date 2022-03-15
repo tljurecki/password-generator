@@ -4,7 +4,7 @@ var passwordLength = Number(prompt("How many characters will your password be?  
 
 var characterType = window.prompt("Enter a chacter type: uppercase, lowercase, numeric, or special");
 
-function generatePassword (num) {
+function generatePassword () {
   var characterSet ="";
   var characterTypeLower = characterType.toLowerCase();
   if (characterTypeLower === "lowercase") {
@@ -17,7 +17,7 @@ function generatePassword (num) {
     characterSet = "!@#$%^&*()<=>?[\]'{|}~";
   }
 var returnValue = "";
-for (var i = 0; i < num; i++) {
+for (var i = 0; i < length; i++) {
   returnValue += characterSet.charAt(Math.floor(Math.random() * characterSet.length));
 }
 return returnValue; 
